@@ -36,7 +36,8 @@ configurations (like API keys or logins), and run the code.
 - Install the dependencies (listed above). For Windows, add 7-Zip to your Windows System PATH. In settings, go to 
 Environment Variables > Path > Edit > New and add the 7-zip folder.
 - Download this repository and save to your computer.
-- Use the configuration_template.py to make a file named configuration.py with file path variables for your local machine.
+- Use the configuration_template.py to make a file named configuration.py with file path variables for your local 
+machine.
 - Change permission on the scripts so they are executable.
 
 (source: https://github.com/uga-libraries/general-aip)
