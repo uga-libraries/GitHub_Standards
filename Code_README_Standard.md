@@ -12,6 +12,9 @@ developed for audiovisual materials and web archives.
 (source: https://github.com/uga-libraries/general-aip)
 
 # Getting Started
+If there are unittests or testing procedures, provide a short description and a link to any external documentation or
+tests within the repository.
+
 ## Dependencies
 Provide a list of packages or external libraries required for this code to run or direct a user to the requirements.txt
 file. Give an example of how to install the dependencies.
@@ -42,9 +45,10 @@ machine.
 
 (source: https://github.com/uga-libraries/general-aip)
 
-## Workflow
+# Workflow
 Generally describe how the program works from start to finish. Generally include expected inputs, how the code processes
-data or goes through the workflow, and expected outputs.
+data or goes through the workflow, and expected outputs. This is also the section where you can list short descriptions
+of scripts if the repository consists of a lot of different scripts with individual workflows.
 
 ***Example:***
 1. Extracts the department, collection id, folder name, AIP id, title, and version from metadata.csv.
@@ -53,17 +57,6 @@ data or goes through the workflow, and expected outputs.
 folders.
 
 (source: https://github.com/uga-libraries/general-aip)
-
-## Testing
-Detail how a user or developer can test the code to make sure it is running as intended. This can include a link to 
-external testing documentation or a list of step-by-step instructions.
-
-***Example:***
-- In the barcode box, enter "320121158842"
-- Select your repository and click save
-- Select the file in Select DLG>ASpace Template button
-- Click "START"
-- The program may be unresponsive, but it should generate a new file and open the location of the file once done
 
 # Author
 State your name, institution, and job title. This is so that anyone looking to ask questions outside opening up an Issue
