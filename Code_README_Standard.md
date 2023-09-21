@@ -17,7 +17,7 @@ tests within the repository.
 
 ## Dependencies
 Provide a list of packages or external libraries required for this code to run or direct a user to the requirements.txt
-file. Give an example of how to install the dependencies.
+file.
 
 ***Example:*** 
 - bagit.py (https://github.com/LibraryOfCongress/bagit-python). Follow install instructions in the README.
