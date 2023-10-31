@@ -3,13 +3,14 @@
 ## Overview
 
 These recommendations promote the creation of repositories that are understandable and maintainable.
+Repositories may be for code or for documentation.
 Someone who was not the original author will be able to understand what it is and how to use it, and potentially contribute to it.
 For repositories that are updated infrequently, it will also be easier for the original author to get re-oriented.
 
 ## Audience
 
 These recommendations must be followed for critical repositories authored by anyone in the Digital Stewardship unit.
-Other authors that use the UGA Libraries GitHub account are encouraged to follow these as well.
+All other contributors to the UGA Libraries GitHub account are encouraged to follow these as well.
 
 ## Critical Repositories
 
@@ -25,7 +26,7 @@ When in doubt, follow the recommendations. They are designed to be as easy to im
 The most common reason to skip these recommendations is for quick, single use scripts that you never intend to work on again.
 Even for those, a little time spent documenting could save you problems later if you unexpectedly do need to use it again.  
 
-## Minimum Features
+## Minimum Required Features
 
 - README
 - License
@@ -68,7 +69,7 @@ For code that is workflow-oriented, where discrete steps are performed on some i
 In other circumstances, it may be more beneficial to write testing procedures that the developer can use. 
 Include step by step instructions for what features to try, what input to use, and what the expected output or result should be.
 
-## Additional Features
+## Additional Recommended Features
 
 - Comments and Docstrings (code only)
 - Issues
