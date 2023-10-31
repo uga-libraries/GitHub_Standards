@@ -1,4 +1,4 @@
-# GitHub Repository Recommendations
+# GitHub Repository Standard
 
 ## Overview
 
