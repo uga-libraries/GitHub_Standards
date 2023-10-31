@@ -2,7 +2,9 @@
 
 ## Overview
 
-Hosts standard templates and recommendations for UGA Library GitHub repositories
+These standards and resources promote the creation of repositories for code and documentation at the UGA Libraries that are understandable and maintainable. 
+These must be followed by the Digital Stewardship unit for repositories that are central to the daily work of the unit.
+All other contributors to the UGA Libraries' GitHub are encouraged to follow these as well.
 
 ## Repository Contents
 
