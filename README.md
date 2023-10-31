@@ -10,7 +10,7 @@ All other contributors to the UGA Libraries' GitHub are encouraged to follow the
 
 * [Code_README_Standard](Code_README_Standard.md): template for a README for a repository for code
 * [Documentation_README_Standard](Documentation_README_Standard.md): template for a README for a repository for documentation
-* [Repository_Standard](Repository_Standard.md): required and recommended features for a critical repository
+* [Repository_Standard](Repository_Standard.md): minimum required and additional recommended features for a repository
 
 ## History
 
