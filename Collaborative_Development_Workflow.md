@@ -28,13 +28,12 @@ When time allows, the Digital Archivist also assists with development.
 ## Workflow
 
 1. Kickoff meeting 
-2. Create or edit GitHub repository (developer) 
-3. Series of sprints (1-2 months each)  
+2. Series of sprints (1-2 months each)  
     a. Development   
     b. Review (product owner)  
     c. Sprint meeting
-4. Finalize GitHub repository (developer) 
-5. Retrospective meeting 
+3. Finalize GitHub repository (developer) 
+4. Retrospective meeting 
 
 ## Communication 
 
