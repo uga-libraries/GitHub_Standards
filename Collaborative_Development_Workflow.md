@@ -114,3 +114,59 @@ Retrospective resources:
 - [Atlassian Team Playbook: Retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
 - [Guide to agile retrospectives](https://www.aha.io/roadmapping/guide/agile/what-is-an-agile-retrospective)   
 - [Sprint Retrospective Meeting](https://blog.trello.com/sprint-retrospective-meeting)
+
+## GitHub Usage 
+
+We use GitHub as the primary method for tracking the development work, for communicating about priorities and issues, 
+and as the permanent documentation of this process.
+
+During the kickoff meeting, determine if a new GitHub repo is needed or if it will be added to an existing repo. 
+For new repos, keep it private until it is ready for production. 
+For existing repos, keep it public. 
+
+At the end of the cycle, make sure that the GitHub repo meets [our GitHub Standards](Repository_Standard.md), 
+that the README and documentation are complete, and remaining ideas have been documented as issues. 
+
+### Branches 
+
+If the script is in production, and you don’t want to alter the main branch until after the end of the development cycle, 
+make a branch for the development cycle. 
+This lets us test that there are no conflicts between different changes prior to moving the new changes into production at the end of the cycle.
+
+At the start of each sprint, make a branch for the sprint from the branch for the development cycle (if any) or main. 
+The sprint branch is a space to stage completed development for review by the product owner. 
+During review, the developer can begin working on another issue in a branch off the sprint branch without changing what the product owner sees.  
+
+Make a branch from the sprint branch for each issue as you work on it and associate the branch with that issue. 
+This clarifies the purpose of each branch and shows that each issue is addressed.  
+
+When work is complete on an issue, merge its branch back into the sprint branch. 
+This lets the developer address any conflicts with other completed portions of the development prior to review. 
+
+When the work is reviewed and accepted (usually at the next sprint meeting), 
+merge the sprint branch into the development cycle branch or main branch. 
+
+### Issues 
+
+GitHub issues are the central place to document all desired changes. 
+Make an issue for every idea, even if you aren’t sure you’ll do it, so everything is in one place and easier to prioritize. 
+It also ensures that ideas are not forgotten while allowing the developer to stay focused on the purpose of the sprint. 
+The first issues are created during the kickoff meeting, 
+and additional ideas are added throughout development by the developer and product owner.  
+
+Use comments to summarize major development decisions and save links to resources used for sections of code (e.g., StackOverflow) as permanent documentation of the development process. 
+Also use comments to get additional information from the product owner (@ to send notification), 
+which will create a record of the decisions, and to notify them that an issue is ready to be reviewed. 
+
+Use labels to organize issues functionally (e.g., same document, same kind of change), mark priority, and track progress (Review, Approved). 
+The label "streamline" has been used for ideas to simplify the code but not change the functionality, which can be done during any sprint if there is extra time.
+Track which ones are in the current sprint by assigning the issue to the developer.
+
+### README 
+
+This document summarizes the script and how to use it.
+Use the [Code README Template](Code_README_Standard.md) to organize the README.  
+
+If the script is already public, add a note to the top of the README at the start of the development cycle indicating that it is undergoing development. 
+If this is a new repository, add information to the README as you go about script arguments, dependencies, etc. 
+to make it easier to finish the README at the end of the development cycle.
