@@ -25,6 +25,12 @@ Your own code projects should be in GitHub, but larger systems/projects can be h
 Digital Stewardship folks use the editor PyCharm for Python code. 
 It has a bit of a learning curve, but some very nice functionality for testing, debugging, and GitHub integration. 
 
+## Markdown
+Use Markdown to mark the style in all text documents in repositories to make them more accessible and easier to read.
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) - table with common syntax
+- [Markdown Introduction](https://daringfireball.net/projects/markdown/) - website created with Markdown to demonstrate each feature
+- [Improving GitHub Profile Page Accessibility](https://github.blog/2023-10-26-5-tips-for-making-your-github-profile-page-accessible/) - written for README but applies to any document
+
 ## Testing 
 [Explanation of Lint](https://en.wikipedia.org/wiki/Lint_%28software%29)
 
