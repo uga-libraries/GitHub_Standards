@@ -21,8 +21,7 @@ and make a pull request to add it to GitHub.
 
 Used for shared projects and hosting from Galileo. 
 These projects are usually multi-repository systems built and/or hosted by Galileo systems.
-They are only accessible to individuals added to the project.
-Your own code projects should be in GitHub, but larger systems/projects can be here.  
+Your own code projects should be in GitHub, but larger systems/projects may be here.  
 
 ## Editors
 
