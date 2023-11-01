@@ -105,9 +105,15 @@ Common information to include in an issue:
 - Reason a priority was chosen  
 
 Use labels to organize and prioritize the issues. 
-GitHub has default labels based on general code development workflows, but you can edit these and add more. 
-Labels can be used to indicate the type of change (e.g., bug, new feature, update policy), the priority level, 
-the document within the repository to edit, or any other classification that would group related ideas together.  
+GitHub has default labels based on general code development workflows, but you can edit these and add more.
+Common types of labels:
+- Document in the repo to edit
+- Priority level (e.g., low, high)
+- Status (e.g., review, accepted, complete, skip/won't_do)
+- Type of change (e.g., documentation, error, new_feature, streamline, update_policy)
+
+Streamline is an issue typed used in collaborative development for changes that simplify the code but do not impact the functionality.
+These are issues that can be done anytime during a development cycle when the developer has extra time.
 
 ### Releases
 
