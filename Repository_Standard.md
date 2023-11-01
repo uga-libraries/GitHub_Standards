@@ -124,6 +124,9 @@ which could help users of the repository stay up to date without needing to read
 Include all supporting documentation needed to provide context for how to use the code in the repository. 
 This could include sample input, sample output, and/or documentation for the workflow that the code is part of.
 
+Documentation may be files (use Markdown) in a folder named "documentation" in the repository.
+For more involved documentation, you might use the [Wiki section of the repo](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis).
+
 ## Markdown for Documentation
 
 Use Markdown to mark the style in all text documents in repositories to make them more accessible and easier to read.
