@@ -7,15 +7,14 @@ It adapts concepts from agile methodology to the situation where everyone is wor
 to keep momentum and support communication. 
 
 In the context of the Digital Stewardship unit, born-digital archiving workflows can be enhanced through scripting, 
-and efficient development of the more involved scripts require consistent blocks of time. 
+and efficient development of the more involved scripts requires consistent blocks of time. 
 In those cases, the Digital Archivist acts as the product owner and Head of Digital Stewardship as the primary developer. 
-When time allows, the Digital Archivist also assists with development. 
-After the development cycle, the two have shared responsibility for ongoing maintenance. 
+When time allows, the Digital Archivist also assists with development.
 
 ## Terminology 
 
-- **Development Cycle:** period for working on the script, kickoff through retrospective 
-- **Developer:** writer of code 
+- **Development Cycle:** timeframe for working on the script, kickoff through retrospective 
+- **Developer:** writer of the code 
 - **Issue:** space in GitHub to describe things to fix and ideas for changes 
 - **Milestone:** key goal for the development, like completing a feature 
 - **Product Owner:** user of the code, person with subject/workflow knowledge 
