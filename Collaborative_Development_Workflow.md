@@ -60,26 +60,23 @@ and delete everything from Teams.
 There are a few meetings throughout the development cycle to plan the work and review progress.
 The development cycle starts with a kickoff meeting to set the goals. 
 At the end of each sprint, meet to evaluate the work completed and select work for the next sprint. 
-And the development cycle ends with a retrospective meeting to reflect on the process.
+The development cycle ends with a retrospective meeting to reflect on the process.
 
 #### Typical Kickoff Meeting Agenda
 
-1. What does the script need to do  
+1. What the script needs to do and how it fits into the workflow 
    - Might be a new script or adding functionality to an existing one
    - For automating a workflow, consider a workflow diagram or outline
    - To define functionality, consider user stories: as a _ROLE_, I _WANT/NEED/CAN GOAL_ so that _REASON_
-2. How does this fit into the workflow overall
-3. How long will we spend on development 
-4. What have any of us done that is similar (as code reference) 
-5. Identify test data needed for development 
-6. Outline milestones  
+2. How much time we have to spend on development 
+3. Outline milestones  
    - Proof of concept 
    - Sometimes one or more related to key functionality 
    - MVP: everything required to use it in production 
    - Sometimes one or more related to bonus functionality
-7. Schedule sprint meetings
-8. Make a new GitHub repo or decide which to add it to
-9. Decide what to work on for the first sprint
+4. Schedule sprint meetings for each milestone
+5. Make a new GitHub repo, if needed
+6. Decide what to work on for the first sprint and set up GitHub issues for them
 
 #### Typical Sprint Meeting Agenda 
 
@@ -94,8 +91,8 @@ And the development cycle ends with a retrospective meeting to reflect on the pr
 1. Future Considerations 
 2. Accomplishments 
 3. Lessons Learned 
-4. Problem Areas (identify solutions for one problem for next time) 
-5. Review and update issues – any to add or remove? 
+4. Problem Areas (pick one problem and identify solutions for next time) 
+5. Review issues: any to add or close? 
 6. For new scripts, establish a maintenance cycle 
 7. Make GitHub Repo public, if it isn’t already 
 
@@ -115,7 +112,7 @@ For new repos, keep it private until it is ready for production.
 For existing repos, keep it public. 
 
 At the end of the cycle, make sure that the GitHub repo meets [our GitHub Standards](Repository_Standard.md), 
-that the README and documentation are complete, and remaining ideas have been documented as issues. 
+that the README and documentation are complete, and that remaining ideas have been documented as issues. 
 
 ### Branches 
 
@@ -149,14 +146,14 @@ Also use comments to get additional information from the product owner (@ to sen
 which will create a record of the decisions, and to notify them that an issue is ready to be reviewed. 
 
 Use labels to organize issues functionally (e.g., same document, same kind of change), mark priority, and track progress (Review, Approved). 
-The label "streamline" has been used for ideas to simplify the code but not change the functionality, which can be done during any sprint if there is extra time.
-Track which ones are in the current sprint by assigning the issue to the developer.
+We use the label "streamline" for ideas to simplify the code but not change the functionality, which can be done during any sprint if there is extra time.
+Track which issues are in the current sprint by assigning the issue to the developer.
 
 ### README 
 
 This document summarizes the script and how to use it.
 Use the [Code README Template](Code_README_Standard.md) to organize the README.  
 
-If the script is already public, add a note to the top of the README at the start of the development cycle indicating that it is undergoing development. 
+If the GitHub repo is already public, add a note to the top of the README at the start of the development cycle indicating that it is undergoing development. 
 If this is a new repository, add information to the README as you go about script arguments, dependencies, etc. 
 to make it easier to finish the README at the end of the development cycle.
