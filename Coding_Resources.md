@@ -4,7 +4,8 @@ Tools and learning resources used by UGA Libraries.
 
 ## [UGA Libraries GitHub](https://github.com/uga-libraries)
 
-Any code you write that will be used for UGA Libraries should be included here. 
+Any code that is used by UGA Libraries should be included here.
+It can also be used for policies and workflow document to have version control and for easy sharing outside UGA.
 The default is to make it a public repository, unless there is secure information as part of the script. 
 Use the standards within this repository to get the best use out of GitHub.
 
