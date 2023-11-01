@@ -2,6 +2,8 @@
 
 Tools and learning resources used by UGA Libraries.
 
+## Code Repositories
+
 ## [UGA Libraries GitHub](https://github.com/uga-libraries)
 
 Any code that is used by UGA Libraries should be included here.
@@ -16,7 +18,9 @@ These projects are usually multi-repository systems built and/or hosted by Galil
 They are only accessible to individuals added to the project.
 Your own code projects should be in GitHub, but larger systems/projects can be here.  
 
-## [Python Editor: PyCharm](https://www.jetbrains.com/pycharm/) 
+## Editors
+
+### [Python Editor: PyCharm](https://www.jetbrains.com/pycharm/) 
 
 Digital Stewardship folks use the editor PyCharm for Python code. 
 It has a bit of a learning curve, but some very nice functionality for testing, debugging, and GitHub integration. 
