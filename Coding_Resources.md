@@ -4,14 +4,14 @@ Tools and learning resources used by UGA Libraries.
 
 ## Code Repositories
 
-## [UGA Libraries GitHub](https://github.com/uga-libraries)
+### [UGA Libraries GitHub](https://github.com/uga-libraries)
 
 Any code that is used by UGA Libraries should be included here.
 It can also be used for policies and workflow document to have version control and for easy sharing outside UGA.
 The default is to make it a public repository, unless there is secure information as part of the script. 
 Use the standards within this repository to get the best use out of GitHub.
 
-## [Galileo GitLab](https://gitlab.galileo.usg.edu/) 
+### [Galileo GitLab](https://gitlab.galileo.usg.edu/) 
 
 Used for shared projects and hosting from Galileo. 
 These projects are usually multi-repository systems built and/or hosted by Galileo systems.
