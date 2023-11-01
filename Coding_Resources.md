@@ -35,6 +35,12 @@ Free editor that will do some automatic syntax color-coding.
 Digital Stewardship folks use the editor PyCharm for Python code. 
 It has a bit of a learning curve, but some very nice functionality for testing, debugging, and GitHub integration. 
 
+## GitHub Actions
+
+### [Workflow to make an EXE file](https://outlookuga.sharepoint.com/:w:/s/LibrarySCL2/EUuJfOLec25BoF4UxMRo6A0B54ODbQUO_22UaNlT1fNzVQ?e=NJkeoy)
+Workflow that uses cx_Freeze and GitHub Actions to automatically generate EXE files for a user to install code on their local machine.
+Internal documentation, available to UGA employees only.
+
 ## Markdown
 Use Markdown to mark the style in all text documents in repositories to make them more accessible and easier to read.
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) - table with common syntax
