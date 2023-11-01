@@ -51,4 +51,4 @@ Use Markdown to mark the style in all text documents in repositories to make the
 - [RuboCop](https://rubocop.org/)
 
 ### XSLT, XQuery, XML Schema
-- [Kernow](https://sourceforge.net/projects/kernowforsaxon/)  
+- [Kernow Editor](https://sourceforge.net/projects/kernowforsaxon/)  
