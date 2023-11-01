@@ -24,3 +24,25 @@ Your own code projects should be in GitHub, but larger systems/projects can be h
 
 Digital Stewardship folks use the editor PyCharm for Python code. 
 It has a bit of a learning curve, but some very nice functionality for testing, debugging, and GitHub integration. 
+
+## Testing 
+[Explanation of Lint](https://en.wikipedia.org/wiki/Lint_%28software%29)
+
+### JavaScript
+- [JSLint](https://www.jslint.com/)
+- [JSHint](https://jshint.com/)
+
+### JSON
+- [JSON Editor Online](https://jsoneditoronline.org/) 
+
+### Python
+- [Pylint](https://pylint.org/)
+
+### Regular Expressions
+- [Regular Expressions 101](https://regex101.com/) 
+
+### Ruby
+- [RuboCop](https://rubocop.org/)
+
+### XSLT, XQuery, XML Schema
+- [Kernow](https://sourceforge.net/projects/kernowforsaxon/)  
