@@ -16,6 +16,7 @@ When time allows, the Digital Archivist also assists with development.
 - **Development Cycle:** timeframe for working on the script, kickoff through retrospective 
 - **Developer:** writer of the code 
 - **Issue:** space in GitHub to describe things to fix and ideas for changes 
+- **Kickoff:** first meeting in the cycle, to establish goals and plan the work
 - **Milestone:** key goal for the development, like completing a feature 
 - **Product Owner:** user of the code, person with subject/workflow knowledge 
 - **Production:** used for real to do work 
