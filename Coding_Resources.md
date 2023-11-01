@@ -11,6 +11,12 @@ It can also be used for policies and workflow document to have version control a
 The default is to make it a public repository, unless there is secure information as part of the script. 
 Use the standards within this repository to get the best use out of GitHub.
 
+### [GitHub Desktop](https://desktop.github.com/)
+
+A user interface to make it easier to work with code locally before publishing it to GitHub.
+It helps sync code between your computer and GitHub, commit changes, 
+and make a pull request to add it to GitHub.
+
 ### [Galileo GitLab](https://gitlab.galileo.usg.edu/) 
 
 Used for shared projects and hosting from Galileo. 
