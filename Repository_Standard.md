@@ -123,3 +123,18 @@ which could help users of the repository stay up to date without needing to read
 
 Include all supporting documentation needed to provide context for how to use the code in the repository. 
 This could include sample input, sample output, and/or documentation for the workflow that the code is part of.
+
+## Markdown for Documentation
+
+Use Markdown to mark the style in all text documents in repositories to make them more accessible and easier to read.
+This includes the README and any supporting documentation.  
+
+Markdown is a very lightweight markup language.
+The most common features are to indicate headers, lists, and links.
+You can write Markdown in a plain text editor, a code editor, or in GitHub itself.
+Use the file extension ".md"  
+
+Resources:
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) - table with common syntax
+- [Markdown Introduction](https://daringfireball.net/projects/markdown/) - website created with Markdown to demonstrate each feature
+- [Improving GitHub Profile Page Accessibility](https://github.blog/2023-10-26-5-tips-for-making-your-github-profile-page-accessible/) - written for README but applies to any document
