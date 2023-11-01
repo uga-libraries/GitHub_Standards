@@ -20,6 +20,10 @@ Your own code projects should be in GitHub, but larger systems/projects can be h
 
 ## Editors
 
+### [Notepad++](https://notepad-plus-plus.org/downloads/)
+
+Free editor that will do some automatic syntax color-coding.
+
 ### [Python Editor: PyCharm](https://www.jetbrains.com/pycharm/) 
 
 Digital Stewardship folks use the editor PyCharm for Python code. 
