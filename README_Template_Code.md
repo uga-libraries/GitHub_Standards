@@ -2,9 +2,9 @@
 Provide the title of the code project for this repository as the header. No description is needed.
 
 ## Overview
-This section should describe what this script/repository does, what is its purpose, and what the user should expect. 
-It should be around three to five sentences in length if it has an overall purpose. For repositories that are a 
-collection of scripts with loosely connected or no unified purpose, describe what each script does briefly.
+This section should describe what this repository does, what is its purpose, and what the user should expect. It should 
+be around three to five sentences in length and optionally can include one to two sentences describing the purpose of 
+each script.
 
 ***Example:***
 This is the general workflow to make archival information packages (AIPs) that are ready for ingest into the UGA 
@@ -17,8 +17,7 @@ developed for audiovisual materials and web archives.
 ## Getting Started
 
 ### Dependencies
-Provide a list of packages or external libraries required for this code to run. We default to 
-[PyCharm's default requirements settings](https://www.jetbrains.com/help/pycharm/managing-dependencies.html).
+Provide a list of packages or external libraries required for this code to run and a short description of their purpose.
 
 ***Example:*** 
 - bagit.py (https://github.com/LibraryOfCongress/bagit-python). Follow install instructions in the README.
@@ -32,33 +31,37 @@ ArchivesSpace API
 https://github.com/uga-libraries/ASpace_Batch_Export-Cleanup-Upload)
 
 ### Installation
-This section should explain how a user can download the code, install any dependencies (like packages, code bases (
-Python, Ruby, etc.) or external libraries, can also reference the requirements.txt file if available), set up any 
+This section should explain how a user can download the code, install any dependencies (like packages, code bases - 
+Python, Ruby, etc. - or external libraries, can also reference the requirements.txt file if available), set up any 
 configurations (like API keys or logins), and run the code. Additionally, make sure to include any account setup info, 
 such as links to external services, such as Archive-It or ArchivesSpace. We generally expect users to know how to use
 GitHub and download Python, so anything beyond that should be included here.
 
 ***Example:***
-- Install the dependencies (listed above). For Windows, add 7-Zip to your Windows System PATH. In settings, go to 
-Environment Variables > Path > Edit > New and add the 7-zip folder.
-- Download this repository and save to your computer.
-- Use the configuration_template.py to make a file named configuration.py with file path variables for your local 
-machine.
-- Change permission on the scripts so they are executable.
+- Download the repostiory via cloning to your local IDE or using GitHub's Code button and Download as ZIP
+- Run pip install requirements.txt
+- Create a secrets.py file with the following information:
+  - An ArchivesSpace admin username, password
+  - The URLs to your ArchivesSpace staging and production API instances
+  - Variables with their values set to user emails you want to send the report to
+  - The email server from which you send your email report
+  - Your ArchivesSpace's staging database credentials, including username, password, hostname, database name, and port 
+- Run the script as python3 ASpace_Data_Audit.py
 
-(source: https://github.com/uga-libraries/general-aip)
 
-### Script Usage/Arguments
+(source: https://github.com/uga-libraries/aspace_data_audit)
+
+### Script Arguments
 List any script arguments for the code here. If you have a collection of scripts with different arguments, break this 
-section for each script and list out the requirements.
+section for each script and list the arguments.
 
 ***Example:***
 
 Script usage: python warc_download.py date_start date_end
 
-    dates: the store date range for WARCs to be downloaded.
-    date_start is inclusive: the download will include WARCs stored on date_start.
-    date_end is exclusive: the download will not include WARCs stored on date_end.
+- dates: the store date range for WARCs to be downloaded.
+- date_start is inclusive: the download will include WARCs stored on date_start.
+- date_end is exclusive: the download will not include WARCs stored on date_end.
 
 (source: https://github.com/uga-libraries/web-aip/tree/github-requirements)
 
@@ -68,9 +71,9 @@ the procedure in this section. If you use unit testing, make sure to refer to th
 information for developers.
 
 ## Workflow
-Generally describe how the program works from start to finish. Generally include expected inputs, how the code processes
-data or goes through the workflow, and expected outputs. If the workflow is already written or in more detail elsewhere,
-link to that documentation here - rather than duplicating the info or summarizing.
+Describe how the program works from start to finish and include expected inputs, how the code processes data or goes 
+through the workflow, and expected outputs. If the workflow is already written in more detail, link to that 
+documentation here - rather than duplicating the info or summarizing.
 
 ***Example:***
 1. Extracts the department, collection id, folder name, AIP id, title, and version from metadata.csv.
@@ -81,17 +84,13 @@ folders.
 (source: https://github.com/uga-libraries/general-aip)
 
 ## Author
-State your name, institution, and job title. This is so that anyone looking to ask questions outside opening up an Issue
+State your name, institution, and job title. This is so that anyone looking to ask questions outside opening up an issue
 has a person to reference for questions.
 
 ## Acknowledgements
-A bullet-point list of any person, community, or resource who assisted in the making of this repository. This can also 
-be the place to describe previous repositories or workflows that influenced the making of this repository.
+A bullet-point list of any person, community, or resource who assisted in the making of this repository.
 
 ***Example:***
-
-These scripts were adapted from a set of two bash scripts that were used for making AIPs from 2017-October 2019 at UGA 
-Libraries. (https://github.com/uga-libraries/aip-mac-bash-fits)
 
 - Adriane Hanson - Head of Digital Stewardship at the University of Georgia Libraries
 - ArchivesSpace community
