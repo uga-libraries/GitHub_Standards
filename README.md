@@ -11,7 +11,7 @@ All other contributors to the UGA Libraries' GitHub are encouraged to follow the
 - [Code README Standard](Code_README_Standard.md): template for a README for a repository for code
 - [Coding Resources](Coding_Resources.md)
 - [Collaborative Development Workflow](Collaborative_Development_Workflow.md)
-- [Documentation README Standard](Documentation_README_Standard.md): template for a README for a repository for documentation
+- [Documentation README Standard](README_Template_Documentation.md): template for a README for a repository for documentation
 - [GitHub Procedures](GitHub_Procedures.md): how to use different features of GitHub and GitLab
 - [Repository_Standard](Repository_Standard.md): minimum required and additional recommended features for a repository
 

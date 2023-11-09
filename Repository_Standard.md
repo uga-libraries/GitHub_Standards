@@ -38,7 +38,7 @@ Even for those, a little time spent documenting could save you problems later if
 All repositories must include a README.md file. 
 The README is the first thing displayed when someone opens a repository.
 It should orient users to the purpose of the repository and how to use it.
-For what to include, see the [template for a code repository](Code_README_Standard.md) or [template for a documentation repository](Documentation_README_Standard.md).
+For what to include, see the [template for a code repository](Code_README_Standard.md) or [template for a documentation repository](README_Template_Documentation.md).
 
 ### License
 
