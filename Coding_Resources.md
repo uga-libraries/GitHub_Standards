@@ -57,7 +57,7 @@ Use Markdown to mark the style in all text documents in repositories to make the
 - [JSON Editor Online](https://jsoneditoronline.org/) 
 
 ### Python
-- [Pylint](https://pylint.org/)
+- [Pylint](https://github.com/pylint-dev/pylint)
 
 ### Regular Expressions
 - [Regular Expressions 101](https://regex101.com/) 

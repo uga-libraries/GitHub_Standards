@@ -152,7 +152,7 @@ Track which issues are in the current sprint by assigning the issue to the devel
 ### README 
 
 This document summarizes the script and how to use it.
-Use the [Code README Template](Code_README_Standard.md) to organize the README.  
+Use the [Code README Template](README_Template_Code.md) to organize the README.  
 
 If the GitHub repo is already public, add a note to the top of the README at the start of the development cycle indicating that it is undergoing development. 
 If this is a new repository, add information to the README as you go about script arguments, dependencies, etc. 
