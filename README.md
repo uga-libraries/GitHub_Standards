@@ -8,7 +8,7 @@ All other contributors to the UGA Libraries' GitHub are encouraged to follow the
 
 ## Repository Contents
 
-- [Code README Standard](Code_README_Standard.md): template for a README for a repository for code
+- [Code README Standard](README_Template_Code.md): template for a README for a repository for code
 - [Coding Resources](Coding_Resources.md)
 - [Collaborative Development Workflow](Collaborative_Development_Workflow.md)
 - [Documentation README Standard](README_Template_Documentation.md): template for a README for a repository for documentation
