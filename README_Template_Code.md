@@ -70,6 +70,16 @@ Outline any testing procedures or unittests that are integrated within the repo.
 the procedure in this section. If you use unit testing, make sure to refer to those unit tests and include any special 
 information for developers.
 
+***Example:***
+
+There are unit tests for each function and the entire script for each of the scripts, except for check_config() 
+(Issue 21) and the API error for get_metadata() (Issue 22). The tests for functions that call the API and for the 
+script rely on UGA Archive-It data. For UGA, the expected results of these tests may need to be updated occasionally to 
+keep in sync with our edits. To use these tests with another account, all expected results must be edited to use data 
+in that account.
+
+(source: https://github.com/uga-libraries/web-archive-it-api)
+
 ## Workflow
 Describe how the program works from start to finish and include expected inputs, how the code processes data or goes 
 through the workflow, and expected outputs. If the workflow is already written in more detail, link to that 
@@ -86,6 +96,12 @@ folders.
 ## Author
 State your name, institution, and job title. This is so that anyone looking to ask questions outside opening up an issue
 has a person to reference for questions.
+
+***Example:***
+
+- Corey Schmidt - Project Management Librarian/Archivist at the University of Georgia Libraries
+
+(source: https://github.com/uga-libraries/aspace_scripts)
 
 ## Acknowledgements
 A bullet-point list of any person, community, or resource who assisted in the making of this repository.
