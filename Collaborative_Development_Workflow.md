@@ -35,6 +35,8 @@ When time allows, the Digital Archivist also assists with development.
 3. Finalize GitHub repository (developer) 
 4. Retrospective meeting 
 
+During the last sprint, the developer (who knows better what the code should be doing) should run the code on a set of real data and look for bugs that need to be addressed. Include bug fixes into the last sprint's deliverables.
+
 ## Communication 
 
 ### GitHub Issues 
